@@ -1,5 +1,5 @@
 
-/*
+
 let person = {
 	firstName: `Ivan`,
 	secondName: `Ivanov`,
@@ -11,18 +11,19 @@ let person = {
 //person.showData();
 
 let newPerson = {
-	firstName: `Petro`,
-	secondName: `Petriv`,
+	firstName: `Ivan`,
+	secondName: `Ivanov`,
 	showData() {
 		console.log(`Name: ${this.firstName}, LastName: ${this.secondName}`);
 	}
 }
-
+newPerson.firstName = "Petro";
+newPerson.secondName = "Petriv";
 person.showData();
 newPerson.showData();
- */
 
 
+/*
 let MyMath = {
 	a: 5,
 	b: 2,
@@ -51,3 +52,5 @@ MyMath.sum();
 MyMath.multiplication();
 MyMath.division(MyMath.a, MyMath.b);
 MyMath.subtraction(MyMath.a, MyMath.b);
+
+ */
