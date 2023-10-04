@@ -10,13 +10,13 @@ let person = {
 //console.log(person);
 //person.showData();
 
-let newPerson = {
-	firstName: `Ivan`,
-	secondName: `Ivanov`,
-	showData() {
-		console.log(`Name: ${this.firstName}, LastName: ${this.secondName}`);
-	}
-}
+let newPerson = Object.create(person);//{
+	//firstName: `Ivan`,
+//	secondName: `Ivanov`,
+//	showData() {
+		//console.log(`Na: ${this.firstName}, LastName: ${this.secondName}`);
+	//}
+//}
 newPerson.firstName = "Petro";
 newPerson.secondName = "Petriv";
 person.showData();
